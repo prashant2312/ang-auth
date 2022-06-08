@@ -1,0 +1,18 @@
+<form [formGroup]='user'>
+    <div class="form-group">
+      <label for=""></label>
+      <input type="text" formControlName="name"
+        class="form-control" name="" id="" aria-describedby="helpId" placeholder="Name">
+    </div>
+    <div class="form-group">
+      <label for=""></label>
+      <input type="email" formControlName="email"
+        class="form-control" name="" id="" aria-describedby="helpId" placeholder="Email">
+    </div>
+    <div class="form-group">
+      <label for=""></label>
+      <input type="password" formControlName="password"
+        class="form-control" name="" id="" aria-describedby="helpId" placeholder="Password">
+    </div>
+    <button class="btn btn-primary mt-3" (click)='submit()'>Register</button>
+</form>
